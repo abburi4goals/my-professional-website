@@ -82,8 +82,8 @@ const ContactSection = () => {
                 <ContactInfo 
                   icon={<Mail className="h-5 w-5 text-brand-500" />}
                   title="Email"
-                  content="mohankishore.abburi@wipro.com"
-                  link="mailto:mohankishore.abburi@wipro.com"
+                  content="abburi.mohan@gmail.com"
+                  link="mailto:abburi.mohan@gmail.com"
                 />
                 
                 <ContactInfo 
