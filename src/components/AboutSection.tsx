@@ -1,5 +1,5 @@
 
-import { Book, Briefcase, GraduationCap, Users } from "lucide-react";
+import { Book, Briefcase, GraduationCap, Users, Award, Code, Server, Database } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -10,13 +10,13 @@ const AboutSection = () => {
             <h2 className="text-3xl font-bold text-brand-800 mb-6">About Me</h2>
             <div className="space-y-4 text-gray-600">
               <p>
-                I'm a passionate professional dedicated to helping individuals and businesses develop strong, authentic personal brands that resonate with their target audience.
+                I'm a passionate Technical Solution Architect with over 15 years of experience in the IT industry, currently working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard through Wipro Digital.
               </p>
               <p>
-                With expertise in [Your Key Skills], I've successfully guided clients through the process of defining their unique value proposition, creating compelling visual identities, and implementing effective marketing strategies.
+                With expertise in Java/J2EE Technologies, Microservices Architecture, and Business Rules Management Systems, I've successfully guided projects through the process of defining architectural solutions for various clients.
               </p>
               <p>
-                My approach combines creative design thinking with strategic marketing principles, ensuring that each client's personal brand not only looks professional but also drives meaningful results.
+                My approach combines practical development experience with architectural vision, ensuring that each solution not only meets technical requirements but also drives meaningful business results.
               </p>
             </div>
             
@@ -27,7 +27,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-800">Experience</h4>
-                  <p className="text-sm text-gray-500">X+ Years</p>
+                  <p className="text-sm text-gray-500">15+ Years</p>
                 </div>
               </div>
               
@@ -37,7 +37,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-800">Clients</h4>
-                  <p className="text-sm text-gray-500">XX+ Worldwide</p>
+                  <p className="text-sm text-gray-500">Mastercard, Visa, USAA</p>
                 </div>
               </div>
               
@@ -47,47 +47,47 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-800">Education</h4>
-                  <p className="text-sm text-gray-500">Degree in [Field]</p>
+                  <p className="text-sm text-gray-500">B.Tech in CS & IT</p>
                 </div>
               </div>
               
               <div className="flex items-center space-x-3">
                 <div className="bg-brand-100 p-3 rounded-full">
-                  <Book className="h-5 w-5 text-brand-600" />
+                  <Award className="h-5 w-5 text-brand-600" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-800">Certifications</h4>
-                  <p className="text-sm text-gray-500">[Relevant Certs]</p>
+                  <p className="text-sm text-gray-500">AWS, SCJP, ODM</p>
                 </div>
               </div>
             </div>
           </div>
           
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-bold text-brand-800 mb-6">My Expertise</h3>
+            <h3 className="text-2xl font-bold text-brand-800 mb-6">Technical Expertise</h3>
             
             <div className="space-y-6">
               <ExpertiseCard 
-                title="Personal Brand Strategy" 
-                description="Developing comprehensive strategies that align with your professional goals and target audience expectations."
+                title="Java/J2EE & Microservices" 
+                description="Strong development experience with Java frameworks, REST services, Spring, Hibernate/JPA, and microservices architecture."
                 percentage={95}
               />
               
               <ExpertiseCard 
-                title="Visual Identity Design" 
-                description="Creating cohesive visual elements that effectively communicate your personal brand values and attributes."
+                title="Business Rules Management" 
+                description="Expert in designing solutions using IBM Operational Decision Manager (ODM) and implementing business rules systems."
                 percentage={90}
               />
               
               <ExpertiseCard 
-                title="Content Creation" 
-                description="Producing engaging content that showcases your expertise and resonates with your audience."
+                title="Distributed Systems" 
+                description="Skilled in designing solutions for distributed computing/messaging using Gemfire IMDG and Kafka."
                 percentage={85}
               />
               
               <ExpertiseCard 
-                title="Digital Marketing" 
-                description="Implementing targeted campaigns to increase visibility and engagement with your personal brand."
+                title="Cloud Infrastructure" 
+                description="Strong conceptual understanding of AWS services and architecting highly available systems with load balancing."
                 percentage={80}
               />
             </div>

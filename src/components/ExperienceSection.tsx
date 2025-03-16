@@ -9,7 +9,7 @@ const ExperienceSection = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-brand-800 mb-4">Experience & Education</h2>
           <p className="text-gray-600">
-            My professional journey and educational background that have shaped my expertise in personal branding.
+            My professional journey and educational background that have shaped my expertise in technical solution architecture.
           </p>
         </div>
         
@@ -26,27 +26,27 @@ const ExperienceSection = () => {
             
             <div className="space-y-8">
               <TimelineItem 
-                years="2020 - Present"
-                title="Senior Brand Strategist"
-                company="Your Current Company"
-                description="Lead personal branding initiatives for high-profile clients, developing comprehensive strategies and overseeing implementation across all platforms."
-                skills={["Brand Strategy", "Marketing", "Client Relations"]}
+                years="Feb 2018 - Present"
+                title="Technical Solution Architect"
+                company="Wipro Digital, O'Fallon, MO"
+                description="Working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard. Analyzing business systems, preparing specifications, and designing technical architecture for new requirements."
+                skills={["Solution Architecture", "Java/J2EE", "Microservices", "ODM"]}
               />
               
               <TimelineItem 
-                years="2017 - 2020"
-                title="Brand Consultant"
-                company="Previous Company"
-                description="Consulted with professionals and small businesses on establishing effective personal and corporate brands. Created tailored marketing materials and content strategies."
-                skills={["Consulting", "Content Strategy", "Design Direction"]}
+                years="Jun 2013 - Jan 2018"
+                title="Technical Leader"
+                company="Wipro Limited, Hyderabad, India"
+                description="Led The Fraud Center (TFC) project for Mastercard. Conducted business requirement analysis, technical design, and provided guidance for backend web services development."
+                skills={["Technical Leadership", "Java", "REST Services", "Performance Tuning"]}
               />
               
               <TimelineItem 
-                years="2015 - 2017"
-                title="Marketing Specialist"
-                company="Early Career Company"
-                description="Developed and executed marketing campaigns, with a focus on personal branding for company executives and thought leaders."
-                skills={["Campaign Management", "Social Media", "Content Creation"]}
+                years="Mar 2007 - Jan 2013"
+                title="IT Analyst"
+                company="TATA Consultancy Services, Chennai, India"
+                description="Worked on multiple projects including Visa Europe Clearing Settlement System, Barclays Bank Receivables Finance Program, and USAA Bank Consumer Loan Acquisition."
+                skills={["Development", "Business Rules", "BPM", "Integration"]}
               />
             </div>
           </div>
@@ -65,42 +65,59 @@ const ExperienceSection = () => {
             
             <div className="space-y-8">
               <TimelineItem 
-                years="2012 - 2015"
-                title="Master's Degree in Marketing"
-                company="University Name"
-                description="Focused on brand development and digital marketing strategies, with thesis on personal branding in the digital age."
-                skills={["Brand Theory", "Digital Marketing", "Research Methods"]}
-              />
-              
-              <TimelineItem 
-                years="2008 - 2012"
-                title="Bachelor's Degree in Communications"
-                company="University Name"
-                description="Studied communications with emphasis on public relations and marketing principles."
-                skills={["Communications", "Public Relations", "Marketing Fundamentals"]}
+                years="2002 - 2006"
+                title="B.Tech in Computer Science and Information Technology"
+                company="JNTU University, Hyderabad"
+                description="Undergraduate degree focused on computer science fundamentals and information technology applications."
+                skills={["Computer Science", "Information Technology", "Software Engineering"]}
               />
               
               <div className="bg-gray-50 rounded-lg p-6 border border-gray-100">
-                <h4 className="font-bold text-brand-800 mb-4">Professional Certifications</h4>
-                <div className="grid grid-cols-2 gap-3">
+                <h4 className="font-bold text-brand-800 mb-4">Technical Certifications</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                   <div className="flex items-center space-x-2">
                     <div className="h-2 w-2 rounded-full bg-brand-500"></div>
-                    <span className="text-gray-600 text-sm">Certified Brand Strategist</span>
+                    <span className="text-gray-600 text-sm">Sun Certified Java Programmer (SCJP 1.5)</span>
                   </div>
                   
                   <div className="flex items-center space-x-2">
                     <div className="h-2 w-2 rounded-full bg-brand-500"></div>
-                    <span className="text-gray-600 text-sm">Digital Marketing Professional</span>
+                    <span className="text-gray-600 text-sm">Sun Certified Web Component Developer (SCWCD 5)</span>
                   </div>
                   
                   <div className="flex items-center space-x-2">
                     <div className="h-2 w-2 rounded-full bg-brand-500"></div>
-                    <span className="text-gray-600 text-sm">Content Strategy Certification</span>
+                    <span className="text-gray-600 text-sm">IBM ODM Advanced v8.7 Application Development</span>
                   </div>
                   
                   <div className="flex items-center space-x-2">
                     <div className="h-2 w-2 rounded-full bg-brand-500"></div>
-                    <span className="text-gray-600 text-sm">Social Media Management</span>
+                    <span className="text-gray-600 text-sm">AWS Certified Solution Architect – Associate</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-gray-50 rounded-lg p-6 border border-gray-100">
+                <h4 className="font-bold text-brand-800 mb-4">Key Achievements</h4>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-2">
+                    <div className="h-2 w-2 rounded-full bg-brand-500 mt-2"></div>
+                    <span className="text-gray-600 text-sm">Designed and implemented Mastercard's Cyberattacks prevention Product SafetyNet</span>
+                  </div>
+                  
+                  <div className="flex items-start space-x-2">
+                    <div className="h-2 w-2 rounded-full bg-brand-500 mt-2"></div>
+                    <span className="text-gray-600 text-sm">Contributed to design and architecture of Mastercard's Decision Admin tool</span>
+                  </div>
+                  
+                  <div className="flex items-start space-x-2">
+                    <div className="h-2 w-2 rounded-full bg-brand-500 mt-2"></div>
+                    <span className="text-gray-600 text-sm">High Five Award from Mastercard leadership for work on RuleManager application</span>
+                  </div>
+                  
+                  <div className="flex items-start space-x-2">
+                    <div className="h-2 w-2 rounded-full bg-brand-500 mt-2"></div>
+                    <span className="text-gray-600 text-sm">STAR award for quick learning on USAA Bank project</span>
                   </div>
                 </div>
               </div>

@@ -14,15 +14,16 @@ const HeroSection = () => {
           <div className="lg:w-1/2 space-y-6 animate-fade-in">
             <p className="text-brand-500 font-medium mb-2 animate-fade-in animate-delay-100">Hi there, I'm</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-800 animate-fade-in animate-delay-200">
-              Your Name
+              Mohan Kishore Abburi
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 font-light animate-fade-in animate-delay-300">
-              Your Professional Title
+              Technical Solution Architect
             </h2>
             <p className="text-gray-600 max-w-xl text-lg animate-fade-in animate-delay-400">
-              I help businesses and individuals establish strong personal brands through strategic 
-              design and marketing. With over X years of experience in the industry, I've worked with 
-              clients across various sectors to enhance their professional presence.
+              Experienced Technical Solution Architect with advanced programming skills and a 
+              proven history of working in the Information technology and services industry.
+              Over 15 years of experience with leading financial institutions like Mastercard, Visa,
+              Citi, Barclays, and USAA.
             </p>
             <div className="flex flex-wrap gap-4 pt-6 animate-fade-in animate-delay-500">
               <Button className="bg-brand-500 hover:bg-brand-600">
@@ -40,7 +41,7 @@ const HeroSection = () => {
               {/* Main image with profile */}
               <div className="rounded-2xl overflow-hidden border-4 border-white shadow-xl w-64 h-64 sm:w-80 sm:h-80 relative z-20">
                 <div className="bg-gradient-to-br from-brand-400 to-brand-600 h-full w-full flex items-center justify-center">
-                  <span className="text-white text-4xl font-bold">YB</span>
+                  <span className="text-white text-4xl font-bold">MA</span>
                 </div>
               </div>
               
