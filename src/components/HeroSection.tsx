@@ -19,7 +19,9 @@ const HeroSection = () => {
             <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 font-light animate-fade-in animate-delay-300">
               Technical Solution Architect
             </h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-xl text-lg animate-fade-in animate-delay-400">Experienced Technical Solution Architect with advanced programming skills and a proven history of working in the Information technology and services industry. Over 16 years of experience with leading financial institutions like Mastercard, Visa, Citi, Barclays, and USAA.</p>
+            <p className="text-gray-600 dark:text-gray-300 max-w-xl text-lg animate-fade-in animate-delay-400">
+              Experienced Technical Solution Architect with 15+ years in the IT industry. Currently working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard through Wipro Digital, with expertise in Java/J2EE, Microservices, and Business Rules Management Systems.
+            </p>
             <div className="flex flex-wrap gap-4 pt-6 animate-fade-in animate-delay-500">
               <Button className="bg-brand-500 hover:bg-brand-600 dark:bg-brand-600 dark:hover:bg-brand-500">
                 View My Projects
