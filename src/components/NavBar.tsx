@@ -14,7 +14,7 @@ const NavBar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  return <header className={cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300", scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-5")}>
+  return <header className="">
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         <Link to="/" className="text-brand-800 font-bold text-xl">
           Your<span className="text-brand-500">AMK</span>
