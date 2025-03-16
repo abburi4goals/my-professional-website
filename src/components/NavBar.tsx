@@ -1,35 +1,23 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
-
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
     };
-    
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  
-  return (
-    <header 
-      className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-5"
-      )}
-    >
+  return <header className={cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300", scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-5")}>
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         <Link to="/" className="text-brand-800 font-bold text-xl">
-          Your<span className="text-brand-500">Brand</span>
+          Your<span className="text-brand-500">AMK</span>
         </Link>
         
         {/* Desktop Navigation */}
@@ -44,18 +32,13 @@ const NavBar = () => {
         </nav>
         
         {/* Mobile Menu Button */}
-        <button
-          className="md:hidden text-gray-500 hover:text-gray-700 focus:outline-none"
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
+        <button className="md:hidden text-gray-500 hover:text-gray-700 focus:outline-none" onClick={toggleMenu} aria-label="Toggle menu">
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
       
       {/* Mobile Navigation */}
-      {isMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-white border-t shadow-lg md:hidden py-4 animate-fade-in">
+      {isMenuOpen && <div className="absolute top-full left-0 right-0 bg-white border-t shadow-lg md:hidden py-4 animate-fade-in">
           <nav className="container mx-auto px-4 sm:px-6 flex flex-col space-y-4">
             <MobileNavLink href="#about" onClick={toggleMenu}>About</MobileNavLink>
             <MobileNavLink href="#projects" onClick={toggleMenu}>Projects</MobileNavLink>
@@ -65,38 +48,27 @@ const NavBar = () => {
               Resume
             </Button>
           </nav>
-        </div>
-      )}
-    </header>
-  );
+        </div>}
+    </header>;
 };
-
 interface NavLinkProps {
   href: string;
   children: React.ReactNode;
 }
-
-const NavLink = ({ href, children }: NavLinkProps) => (
-  <a 
-    href={href} 
-    className="text-gray-700 hover:text-brand-500 transition-colors duration-200 font-medium"
-  >
+const NavLink = ({
+  href,
+  children
+}: NavLinkProps) => <a href={href} className="text-gray-700 hover:text-brand-500 transition-colors duration-200 font-medium">
     {children}
-  </a>
-);
-
+  </a>;
 interface MobileNavLinkProps extends NavLinkProps {
   onClick: () => void;
 }
-
-const MobileNavLink = ({ href, onClick, children }: MobileNavLinkProps) => (
-  <a 
-    href={href} 
-    className="text-gray-700 hover:text-brand-500 transition-colors duration-200 font-medium block py-2"
-    onClick={onClick}
-  >
+const MobileNavLink = ({
+  href,
+  onClick,
+  children
+}: MobileNavLinkProps) => <a href={href} className="text-gray-700 hover:text-brand-500 transition-colors duration-200 font-medium block py-2" onClick={onClick}>
     {children}
-  </a>
-);
-
+  </a>;
 export default NavBar;

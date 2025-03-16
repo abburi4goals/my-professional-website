@@ -1,10 +1,7 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="min-h-screen flex items-center relative overflow-hidden pt-16">
+  return <section className="min-h-screen flex items-center relative overflow-hidden pt-16">
       {/* Background pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-blue-950 z-0" />
       <div className="absolute inset-0 opacity-30 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#4b5563_1px,transparent_1px)] bg-[length:20px_20px] z-0" />
@@ -19,9 +16,7 @@ const HeroSection = () => {
             <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 font-light animate-fade-in animate-delay-300">
               Technical Solution Architect
             </h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-xl text-lg animate-fade-in animate-delay-400">
-              Experienced Technical Solution Architect with 15+ years in the IT industry. Currently working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard through Wipro Digital, with expertise in Java/J2EE, Microservices, and Business Rules Management Systems.
-            </p>
+            <p className="text-gray-600 dark:text-gray-300 max-w-xl text-lg animate-fade-in animate-delay-400">Experienced Technical Solution Architect with 16+ years in the IT industry. Currently working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard through Wipro Digital, with expertise in Java/J2EE, Microservices, and Business Rules Management Systems.</p>
             <div className="flex flex-wrap gap-4 pt-6 animate-fade-in animate-delay-500">
               <Button className="bg-brand-500 hover:bg-brand-600 dark:bg-brand-600 dark:hover:bg-brand-500">
                 View My Projects
@@ -53,8 +48,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
