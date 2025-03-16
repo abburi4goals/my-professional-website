@@ -75,8 +75,9 @@ const ExperienceSection = () => {
                 <div className="space-y-3">
                   <div className="flex items-start space-x-2">
                     <div className="h-2 w-2 rounded-full bg-brand-500 mt-2"></div>
-                    <span className="text-gray-600 dark:text-gray-300 text-sm">Listed as "Honored Listee" in "Marquis Who's who"
-Designed and implemented Mastercard's Cyberattacks prevention Product SafetyNet</span>
+                    <span className="text-gray-600 dark:text-gray-300 text-sm">Listed as "Honored Listee" in "Marquis Who's who"</span>
+                  </div>
+                   <span className="text-gray-600 dark:text-gray-300 text-sm">Designed and implemented Mastercard's Cyberattacks prevention Product SafetyNet</span>
                   </div>
                   
                   <div className="flex items-start space-x-2">
