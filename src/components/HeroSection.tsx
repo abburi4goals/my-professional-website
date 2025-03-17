@@ -32,9 +32,16 @@ const HeroSection = () => {
             <div className="relative">
               {/* Main image with profile */}
               <div className="rounded-2xl overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl w-64 h-64 sm:w-80 sm:h-80 relative z-20">
-                <div className="bg-gradient-to-br from-brand-400 to-brand-600 dark:from-brand-600 dark:to-brand-800 h-full w-full flex items-center justify-center">
-                  <span className="text-white text-4xl font-bold">MA</span>
-                </div>
+                <img 
+                  src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800&auto=format&fit=crop"
+                  alt="Professional Nature Background"
+                  className="h-full w-full object-cover"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.onerror = null;
+                    target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400"%3E%3Crect width="400" height="400" fill="%231e40af"/%3E%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="120" fill="%23ffffff"%3EMA%3C/text%3E%3C/svg%3E';
+                  }}
+                />
               </div>
               
               {/* Decorative elements */}
