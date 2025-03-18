@@ -24,11 +24,11 @@ jobs:
 
     - name: Install Gulp
       run: npm install gulp
-   
+    
     - name: Install dependencies
-      run: npm install --force
+      run: npm install --legacy-peer-deps
 
     - name: Build
       run: |
-        npm install
+        npm install --legacy-peer-deps
         gulp
