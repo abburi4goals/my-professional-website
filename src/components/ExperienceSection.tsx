@@ -22,7 +22,7 @@ const ExperienceSection = () => {
             </h3>
             
             <div className="space-y-8">
-              <TimelineItem years="Feb 2018 - Present" title="Technical Solution Architect" company="Wipro Digital, O'Fallon, MO" description="Working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard. Analyzing business systems, preparing specifications, and designing technical architecture for new requirements." skills={["Solution Architecture", "Java/J2EE", "Microservices", "ODM"]} />
+              <TimelineItem years="Feb 2018 - Present" title="Technical Solution Architect" company="Wipro Digital, O'Fallon, MO" description="Working for Artificial Intelligence and Decision Processing (AI & DP) unit of Mastercard. Analyzing business systems, preparing specifications, and designing technical architecture for new requirements." skills={["Solution Architecture", "Java/J2EE", "Microservices", "ODM"]} />
               
               <TimelineItem years="Jun 2013 - Jan 2018" title="Technical Leader" company="Wipro Limited, Hyderabad, India" description="Led The Fraud Center (TFC) project for Mastercard. Conducted business requirement analysis, technical design, and provided guidance for backend web services development." skills={["Technical Leadership", "Java", "REST Services", "Performance Tuning"]} />
               

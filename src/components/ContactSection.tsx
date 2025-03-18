@@ -72,14 +72,14 @@ const ContactSection = () => {
               
               <div className="flex space-x-4">
                 <SocialLink icon={<Linkedin className="h-5 w-5" />} href="https://www.linkedin.com/in/mohan-abburi" label="LinkedIn" />
-                <SocialLink icon={<Github className="h-5 w-5" />} href="#" label="GitHub" />
+                <SocialLink icon={<Github className="h-5 w-5" />} href="https://github.com/abburi4goals" label="GitHub" />
               </div>
             </div>
             
             <div className="bg-brand-50 dark:bg-gray-700 rounded-lg p-8 border border-brand-100 dark:border-gray-600">
               <h4 className="font-bold text-brand-800 dark:text-white mb-4">Current Status</h4>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                I'm currently working with Wipro Digital for Mastercard's CIBS unit. I specialize in designing technical solutions and architecture for complex business needs.
+                I'm currently working with Wipro Digital for Mastercard's AI & DP unit. I specialize in designing technical solutions and architecture for complex business needs.
               </p>
               
             </div>

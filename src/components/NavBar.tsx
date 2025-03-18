@@ -26,9 +26,6 @@ const NavBar = () => {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#contact">Contact</NavLink>
-          <Button variant="default" size="sm" className="bg-brand-500 hover:bg-brand-600">
-            Resume
-          </Button>
         </nav>
         
         {/* Mobile Menu Button */}
@@ -44,9 +41,6 @@ const NavBar = () => {
             <MobileNavLink href="#projects" onClick={toggleMenu}>Projects</MobileNavLink>
             <MobileNavLink href="#experience" onClick={toggleMenu}>Experience</MobileNavLink>
             <MobileNavLink href="#contact" onClick={toggleMenu}>Contact</MobileNavLink>
-            <Button variant="default" size="sm" className="bg-brand-500 hover:bg-brand-600 w-full mt-4">
-              Resume
-            </Button>
           </nav>
         </div>}
     </header>;

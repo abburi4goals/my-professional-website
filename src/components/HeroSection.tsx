@@ -16,7 +16,7 @@ const HeroSection = () => {
             <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 font-light animate-fade-in animate-delay-300">
               Technical Solution Architect
             </h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-xl text-lg animate-fade-in animate-delay-400">Experienced Technical Solution Architect with 16+ years in the IT industry. Currently working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard through Wipro Digital, with expertise in Java/J2EE, Microservices, and Business Rules Management Systems.</p>
+            <p className="text-gray-600 dark:text-gray-300 max-w-xl text-lg animate-fade-in animate-delay-400">Experienced Technical Solution Architect with 16+ years in the IT industry. Currently working for Artificial Intelligence and Decision Processing (AI & DP) unit of Mastercard through Wipro Digital, with expertise in Java/J2EE, Microservices, and Business Rules Management Systems.</p>
             <div className="flex flex-wrap gap-4 pt-6 animate-fade-in animate-delay-500">
               <Button className="bg-brand-500 hover:bg-brand-600 dark:bg-brand-600 dark:hover:bg-brand-500">
                 View My Projects
@@ -33,8 +33,8 @@ const HeroSection = () => {
               {/* Main image with profile */}
               <div className="rounded-2xl overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl w-64 h-64 sm:w-80 sm:h-80 relative z-20">
                 <img 
-                  src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=800&auto=format&fit=crop"
-                  alt="Professional Nature Background"
+                  src="/images/profile.jpg"
+                  alt="Mohan Kishore Abburi"
                   className="h-full w-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;

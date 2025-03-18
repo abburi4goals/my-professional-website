@@ -1,4 +1,3 @@
-
 import { Book, Briefcase, GraduationCap, Users, Award, Code, Server, Database } from "lucide-react";
 
 const AboutSection = () => {
@@ -10,7 +9,7 @@ const AboutSection = () => {
             <h2 className="text-3xl font-bold text-brand-800 dark:text-white mb-6">About Me</h2>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                I'm a passionate Technical Solution Architect with over 15 years of experience in the IT industry, currently working for Ciber & Intelligent Solutions (CIBS) unit of Mastercard through Wipro Digital.
+                I'm a passionate Technical Solution Architect with over 15 years of experience in the IT industry, currently working for Artificial Intelligence and Decision Processing (AI & DP) unit of Mastercard through Wipro Digital.
               </p>
               <p>
                 With expertise in Java/J2EE Technologies, Microservices Architecture, and Business Rules Management Systems, I've successfully guided projects through the process of defining architectural solutions for various clients including Mastercard, Visa, Citi, Barclays, and USAA.
@@ -27,7 +26,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-brand-800 dark:text-white">Experience</h4>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">15+ Years</p>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">16+ Years</p>
                 </div>
               </div>
               
@@ -70,6 +69,8 @@ const AboutSection = () => {
               <ExpertiseCard title="Java/J2EE & Microservices" description="Strong development experience with Java frameworks, REST services, Spring, Hibernate/JPA, and microservices architecture." percentage={95} />
               
               <ExpertiseCard title="Business Rules Management" description="Expert in designing solutions using IBM Operational Decision Manager (ODM) and implementing business rules systems." percentage={90} />
+              
+              <ExpertiseCard title="Generative AI & LLMs" description="Experience in integrating and implementing AI solutions using OpenAI, Claude, and other LLM platforms for enterprise applications." percentage={85} />
               
               <ExpertiseCard title="Cloud Infrastructure" description="Certified AWS Solution Architect with experience in architecting highly available systems with load balancing." percentage={85} />
               
